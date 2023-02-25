@@ -1,0 +1,163 @@
+/*fonts family*/
+@font-face{
+	font-family: Poppins-Regular,sans-serif;
+	scr: url(../fonts/poppins/Poppins-Regular.ttf);
+}
+@font-face{
+	font-family: Poppins-Bold,sans-serif;
+	scr: url(../fonts/poppins/Poppins-Bold.ttf);
+}
+@font-face{
+	font-family: Poppins-Medium,sans-serif;
+	scr: url(../fonts/poppins/Poppins-Medium.ttf);
+}
+@font-face{
+	font-family: Roboto-Regular,sans-serif;
+	scr: url(../fonts/roboto/Roboto-Regular.ttf);
+}
+/*common*/
+body{
+	font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color:#000000;
+}
+
+/*header start*/
+header{
+	background-color: #F0FFF0;
+	padding: 5px 0 0;
+}
+.logo{}
+.logo img{}
+.menu{}
+.menu ul li a{
+	padding: 0 20px !important;
+	font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+	transition: .5s;
+}
+.menu ul li a:hover{
+	color: #FD511A; 
+}
+.nav-btn{
+	width: 105px;
+    height: 45px;
+}
+.c-btn{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 19px;
+	background-color: #21B573;
+	color: #FFFFFF;
+	border-radius: 33px;
+	border: 0;
+}
+.c-btn:hover{
+	background-color: #FD511A;
+	color: #FFFFFF;
+}
+/*banner start*/
+.banner{
+	background-color: #F0FFF0;
+	padding: 30px 0 60px;
+}
+.b_text{
+	padding: 0 160px 0 0;
+}
+.b-red{
+	color: #FD511A;
+	line-height: 24px;
+}
+.b-h1{
+	margin: 10px 0 20px;
+	font-size: 48px;
+	font-weight: 700;
+    color: #000000;
+    line-height: 65px;
+}
+.b-h1 span{
+	color: #21B573;
+}
+.b-p{
+	line-height: 36px;
+}
+.btn-banner{
+	margin-top: 15px;
+	padding: 13px 0;
+	width: 155px;
+	height: 45px;
+}
+.b_img{}
+.b_img img{}
+/*banner end*/
+/*feature start*/
+.feature{
+	padding: 15px 0 100px;
+}
+.f-single{
+	margin-top: 30px;
+	background: #c2ddce;
+    border-radius: 10px;
+    padding: 55px 45px 50px;
+    transition: .33s;
+}
+.f-single:hover{
+	background-color: white;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+.f-img{
+	margin-bottom: 20px;
+}
+.f-img img{
+	
+}
+.f-text{}
+.f-h2{
+	font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+.f-p{
+	line-height: 24px;
+}
+/*feature end*/
+/*card start*/
+.online-course{
+   padding: 85px 0 80px;
+}
+.co-h2{
+	font-size: 36px;
+	font-weight: 700;
+    line-height: 54px;
+	color: #413960;
+	margin-bottom: 85px;
+}
+.cou-item{
+	padding: 24px 20px 50px;
+	margin: 0 0px;
+	border-radius: 18px;
+}
+.co-img{
+	margin-bottom: 20px;
+}
+.co-img img{}
+.co-text{}
+.cou-h2{
+	font-size: 24px;
+	font-weight: 500;
+    line-height: 36px;
+}
+.co-p{}
+.co-btn{
+	width: 140px;
+    height: 35px;
+	margin: 20px 0 35px;
+}
+.c-icon{
+	font-size: 20px;
+}
+
+/*card end*/
